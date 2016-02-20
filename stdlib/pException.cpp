@@ -15,4 +15,7 @@ int exceptHandler(int exceptcode) {
 	}
 	if (exceptcode = 1)
 	{
-		cerr << ""
+		cerr << "FileI/O";
+		isfatal = false;
+		handlecode = 2;
+    }
